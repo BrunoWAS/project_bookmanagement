@@ -46,26 +46,14 @@ Além disso, é bom ter um editor para trabalhar com o código, como o [VSCode](
 
    Isso criará um contêiner do MongoDB ouvindo na porta padrão 27017.
 
-### Variáveis de Ambiente
-
-- Crie um arquivo `.env` na raiz do projeto e configure as seguintes variáveis:
-
-   ```
-   MONGO_URI=mongodb://localhost:27017/bookdb
-   PORT=3000
-   ```
-
-   Certifique-se de que o `MONGO_URI` está apontando para o seu contêiner MongoDB.
 
 ## Executando o Projeto
 
 1. Inicie o servidor de desenvolvimento:
 
    ```bash
-   npm run dev
+   npm start
    ```
-
-   Isso iniciará o servidor com o `nodemon`, permitindo a recarga automática durante o desenvolvimento.
 
 2. Acesse a API no endereço `http://localhost:3000`.
 
